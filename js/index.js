@@ -38,6 +38,7 @@ document.addEventListener('readystatechange',function(){
 				var off=-this.index*W;
 				for(var j=0;j<slides.length;j++){
 		     	slides[j].style.transform="translateX("+off+"px)";
+		     	slides[j].style.transform="-webkit-translateX("+off+"px)";
 		     }
 				clearInterval(t);
 			}
