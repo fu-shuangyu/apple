@@ -928,6 +928,7 @@ div .footer-list{
 	background: #f2f2f2;
 }
 #ac-gf-directory-column-section-state-products:checked + .footer-con h3:after,#ac-gf-directory-column-section-state-storeservices:checked + .footer-con h3:after,#ac-gf-directory-column-section-state-education:checked + .footer-con h3:after,#ac-gf-directory-column-section-state-business:checked + .footer-con h3:after,#ac-gf-directory-column-section-state-accounts:checked + .footer-con h3:after,#ac-gf-directory-column-section-state-responsibility:checked + .footer-con h3:after,#ac-gf-directory-column-section-state-about:checked + .footer-con h3:after{
+	-webkit-transform: rotateZ(45deg);
 	transform: rotateZ(45deg);
 	transition:all 0.6s ease;
 }
