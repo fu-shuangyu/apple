@@ -797,6 +797,9 @@ input ~ .ac-gn-menu-label{
 	}
 }
 @media(max-width: 735px){
+	h1.product-pro, h1.hero-headline {
+	    font-size: 50px;
+	}
 	.content.evergreen {
 	    height: 65%;
 	    min-height: 391px;
