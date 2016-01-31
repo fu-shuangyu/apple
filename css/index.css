@@ -751,9 +751,10 @@ input ~ .ac-gn-menu-label{
 }
 #ac-gn-menustate:checked ~ nav label .ac-gn-menu-top:first-of-type{
 	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
 }
 #ac-gn-menustate:checked ~ nav label .ac-gn-menu-bottom:last-of-type{
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 } 
 #ac-gn-menustate:checked ~ nav label .ac-gn-menu-top .ac-gn-menu-t{
 	top:23px;
@@ -766,6 +767,7 @@ input ~ .ac-gn-menu-label{
  }
 #ac-gn-menustate:checked ~ nav .smallnav .ac-gn-bag{
 	transform: translate3d(200px,0,0);
+	-webkit-transform: translate3d(200px,0,0);
 }
 #ac-gn-menustate:checked + nav{
 	height: 100%;
