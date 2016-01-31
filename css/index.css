@@ -921,5 +921,8 @@ div .footer-list{
 	transform: rotateZ(45deg);
 	transition:all 0.6s ease;
 }
-
+.current{
+	background: none;
+	border-color: #08c;
+}
 /*脚步下拉菜单结束*/
