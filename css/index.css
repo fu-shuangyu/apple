@@ -797,8 +797,13 @@ input ~ .ac-gn-menu-label{
 	}
 }
 @media(max-width: 735px){
-	h1.product-pro,h1.hero-headline {
-	    font-size: 50px;
+	.copy-inner.copy1 h1 {
+	   font-size: 30px;
+	   height: auto;
+	}
+	.copy-inner.copy1 h2 {
+	   font-size: 20px;
+	   height: auto;
 	}
 	.content.evergreen {
 	    height: 65%;
