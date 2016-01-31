@@ -432,7 +432,7 @@ section.banner1{
 	display: inline-block;
 	line-height: 40px;
 }
-.dotnav>ul>li{
+.c1{
 	width: 8px;
 	height: 8px;
 	display: inline-block;
@@ -923,7 +923,7 @@ div .footer-list{
 }
 .current{
 	background: none;
-	border-color: #08c;
+	border: 1px solid #08c;
 }
 .dotnav ul li{
 	cursor:pointer;
