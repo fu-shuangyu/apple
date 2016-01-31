@@ -925,4 +925,7 @@ div .footer-list{
 	background: none;
 	border-color: #08c;
 }
+.dotnav ul li{
+	cursor:pointer;
+}
 /*脚步下拉菜单结束*/
